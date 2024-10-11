@@ -34,8 +34,4 @@ The dataset consists of the following columns:
 - **Data Limitations**: Some patients may have missing data for certain attributes. Handle missing data appropriately using statistical techniques such as imputation or exclusion, depending on the analysis.
 
 
-## Citation
-If you use this dataset in your research or publication, please cite it appropriately:
-```
-[Dataset Author], BRCA Clinical and Protein Data, [Year], [Source/Repository], [DOI or URL if available].
-```
+
