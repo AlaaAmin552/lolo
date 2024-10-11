@@ -1,52 +1,40 @@
 
 # BRCA Clinical and Protein Data
 
-## Description
-This dataset contains clinical and protein expression data for patients diagnosed with BRCA (Breast Cancer). The dataset combines various clinical attributes, including patient demographics, tumor characteristics, hormone receptor status, and surgical details, with protein expression data. It is intended for research purposes, particularly for analyzing the relationships between clinical features and molecular data to understand disease progression and treatment outcomes.
+BRCA Dataset - Data Description and Cleaning Process
+Project Overview
+This dataset contains information on BRCA patients and their medical details, including protein levels, tumor stages, and patient visit history. The data has been cleaned and processed to ensure consistency and accuracy for further analysis. This project focuses on preparing the dataset for research and machine learning tasks.
+Dataset Description
+The dataset includes the following columns:
+Protein1, Protein2, Protein3, Protein4: These columns represent protein levels recorded for each patient. Initially, some columns had blank values and invalid entries which were replaced with NULL to allow for better data analysis.
+Date_of_Surgery: The date of the patient's surgery.
+Date_of_Last_Visit: The most recent date the patient visited the clinic. Invalid future dates (e.g., 2026) and placeholder dates (e.g., 01-01-1900) were removed to ensure only valid dates are included.
+Age: The age of the patient, converted into an integer format for better use in analysis.
+Tumour_Stage: The stage of the tumor. The values were grouped into numerical categories: I (1), II (2), and III (3).
+Patient_Status: The status of the patient. Blank entries were replaced with 'Unknown'.
+Year_of_Surgery: Extracted from the Date_of_Surgery column to simplify year-based analysis.
+Data Cleaning Process
+1. Handling Invalid Numeric Values
+Before Modification: Some numeric columns, such as Protein1, Protein2, etc., contained blanks or invalid values that were non-numeric.
+After Modification: These blanks were replaced with NULL, and the columns were converted to numeric types (Decimal).
+2. Removing Invalid Date Entries
+Before Modification: The Date_of_Last_Visit column contained invalid entries such as 01-01-1900 or dates in the future (e.g., 2026).
+After Modification: Rows with invalid dates were removed, ensuring all dates fall within a logical range for patient visits.
+3. Converting Tumor Stages
+Before Modification: The Tumour_Stage column had categorical values (I, II, III).
+After Modification: These were converted to numerical categories (1, 2, 3) for easier analysis, and blanks were replaced with NULL.
+4. Adjusting Patient Status
+Before Modification: The Patient_Status column had some missing values (blanks).
+After Modification: Blanks were replaced with Unknown to provide a consistent dataset.
+5. Extracting Year of Surgery
+Before Modification: The year of surgery was embedded within the Date_of_Surgery column.
+After Modification: A new column Year_of_Surgery was created by extracting the year from the Date_of_Surgery column.
+Examples from the Dataset
+Protein Levels:
+Before: Protein1 = "", Protein2 = "", Protein3 = "abc" (non-numeric value)
+After: Protein1 = NULL, Protein2 = NULL, Protein3 = NULL (non-numeric value removed)
+Date Cleaning:
+Before: Date_of_Last_Visit = 01-01-1900, Date_of_Surgery = 2026-04-15
+After: Invalid date rows removed, only valid dates remain.
+Usage Guide
 
-## Data Overview
-The dataset consists of the following columns:
-
-1. **Patient_ID**: Unique identifier assigned to each patient.
-2. **Age**: Patient's age at the time of diagnosis.
-3. **Gender**: Patient's gender (e.g., FEMALE).
-4. **Protein1, Protein2, Protein3, Protein4**: Measured levels of various proteins related to the patient’s condition. These proteins may be biomarkers that help in understanding the biological processes of the cancer.
-5. **Tumour_Stage**: The clinical stage of the tumor, which provides insight into how advanced the cancer is (e.g., Stage I, II, III). This is based on criteria such as tumor size and the spread of the disease.
-6. **Histology**: The type of tissue abnormality (e.g., Infiltrating Ductal Carcinoma, Mucinous Carcinoma), which helps in classifying the nature of the breast cancer.
-7. **ER status (Estrogen Receptor)**: Whether the cancer cells have estrogen receptors (Positive or Negative). This status is crucial for determining whether hormone therapy is suitable.
-8. **PR status (Progesterone Receptor)**: Whether the cancer cells have progesterone receptors (Positive or Negative). Like ER status, this helps guide treatment decisions.
-9. **HER2 status**: The status of HER2 protein receptors, which can be either Positive or Negative. HER2-positive breast cancers tend to grow more aggressively, and specific therapies target this receptor.
-10. **Surgery_type**: The type of surgery the patient underwent (e.g., Lumpectomy, Modified Radical Mastectomy). This indicates the surgical approach taken to remove the tumor.
-11. **Date_of_Surgery**: The exact date when the surgical procedure was performed.
-12. **Date_of_Last_Visit**: The date of the patient's most recent follow-up visit, which is used to track the patient's post-surgery progress and overall health.
-13. **Patient_Status**: The current health status of the patient (Alive or Dead) at the time of the last visit. This helps in analyzing survival outcomes.
-14. **Tumor_Stage_Numeric**: A numerical representation of the tumor stage (e.g., 1, 2, 3), used for more granular analysis.
-15. **Year_of_Surgery**: The year in which the surgery was performed, which can help in time-based analysis, especially for longitudinal studies.
-
-## Potential Use Cases
-- **Survival Analysis**: By examining the Patient_Status and other clinical factors, researchers can study survival rates and identify potential predictors of patient outcomes.
-- **Correlation Studies**: Analyze the relationship between protein expression levels (Protein1, Protein2, Protein3, Protein4) and tumor characteristics or patient survival.
-- **Treatment Outcome Analysis**: Investigating how different surgery types, receptor statuses (ER, PR, HER2), and tumor stages impact long-term survival and recovery.
-- **Prognostic Modeling**: Using machine learning models to predict patient outcomes based on their clinical and molecular data.
-
-## Notes
-- **Data Sensitivity**: This dataset includes sensitive patient data, such as health status and treatment details. Ensure that all analyses comply with data privacy regulations (e.g., GDPR, HIPAA) if using this data for research or publications.
-- **Data Limitations**: Some patients may have missing data for certain attributes. Handle missing data appropriately using statistical techniques such as imputation or exclusion, depending on the analysis.
-
-## How to Use
-1. **Load the Data**: The dataset is in CSV format and can be loaded into popular data analysis tools like Python (Pandas), R, or Excel.
-    ```python
-    import pandas as pd
-    df = pd.read_csv('Cleaned_BRCA.csv')
-    ```
-2. **Basic Exploration**: Start by exploring the data to understand its structure and content.
-    ```python
-    print(df.info())
-    print(df.describe())
-    ```
-
-## Citation
-If you use this dataset in your research or publication, please cite it appropriately:
-```
-[Dataset Author], BRCA Clinical and Protein Data, [Year], [Source/Repository], [DOI or URL if available].
-```
