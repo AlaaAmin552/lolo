@@ -33,17 +33,6 @@ The dataset consists of the following columns:
 - **Data Sensitivity**: This dataset includes sensitive patient data, such as health status and treatment details. Ensure that all analyses comply with data privacy regulations (e.g., GDPR, HIPAA) if using this data for research or publications.
 - **Data Limitations**: Some patients may have missing data for certain attributes. Handle missing data appropriately using statistical techniques such as imputation or exclusion, depending on the analysis.
 
-## How to Use
-1. **Load the Data**: The dataset is in CSV format and can be loaded into popular data analysis tools like Python (Pandas), R, or Excel.
-    ```python
-    import pandas as pd
-    df = pd.read_csv('Cleaned_BRCA.csv')
-    ```
-2. **Basic Exploration**: Start by exploring the data to understand its structure and content.
-    ```python
-    print(df.info())
-    print(df.describe())
-    ```
 
 ## Citation
 If you use this dataset in your research or publication, please cite it appropriately:
