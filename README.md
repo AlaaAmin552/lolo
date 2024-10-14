@@ -54,3 +54,23 @@ The following insights have been drawn from the analysis of the BRCA dataset:
 3. **Protein Distributions**: The diagonal histograms illustrate the distribution of each protein, revealing patterns like skewness, multimodality, or normal distribution.
 
 These findings provide a deep dive into the clinical and protein expression data, offering valuable insights into breast cancer diagnosis, treatment, and patient outcomes.
+
+## The Essential Role of Data Visualization
+
+Data visualization is more than just presenting numbers in a graphical format—it’s the key to unlocking the hidden meanings within complex datasets. By transforming raw data into visual insights, we can bridge the gap between information and understanding. It enables us to quickly identify patterns, spot trends, and make data-driven decisions that are both informed and impactful. Visualization makes the invisible, visible—guiding us from raw information to actionable insights.
+
+Through visual analysis of the dataset, we seek to answer the following crucial questions:
+
+1. What is the most common type of surgery performed among patients?
+2. Which type of surgery has the highest success rate in treating breast cancer?
+3. Which age group benefits the most from each type of surgery?
+4. What is the most common age group among males and females diagnosed with cancer?
+5. What is the most common tumor stage at the time of diagnosis?
+6. How do tumor stages differ across different age groups and genders?
+7. What is the survival rate based on the tumor stage at the time of surgery?
+8. How does the type of surgery affect long-term patient outcomes?
+9. What is the distribution of surgery types across different tumor stages?
+10. Are there differences in tumor stages and outcomes between patients based on the year of surgery?
+11. What patterns or trends can be identified in the dataset over time?
+12. What percentage of patients diagnosed with Infiltrating Lobular Carcinoma survived after treatment?
+13. What was the most common type of surgery performed on patients with Infiltrating Lobular Carcinoma, and how did it impact survival?
