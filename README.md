@@ -55,7 +55,7 @@ The following insights have been drawn from the analysis of the BRCA dataset:
 
 These findings provide a deep dive into the clinical and protein expression data, offering valuable insights into breast cancer diagnosis, treatment, and patient outcomes.
 
-## ## Visualization on the Data
+##  Visualization on the Data
 
 Data visualization is more than just presenting numbers in a graphical format—it’s the key to unlocking the hidden meanings within complex datasets. By transforming raw data into visual insights, we can bridge the gap between information and understanding. It enables us to quickly identify patterns, spot trends, and make data-driven decisions that are both informed and impactful. Visualization makes the invisible, visible—guiding us from raw information to actionable insights.
 
