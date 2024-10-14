@@ -73,4 +73,4 @@ Through visual analysis of the dataset, we seek to answer the following crucial 
 10. Are there differences in tumor stages and outcomes between patients based on the year of surgery?
 11. What patterns or trends can be identified in the dataset over time?
 12. What percentage of patients diagnosed with Infiltrating Lobular Carcinoma survived after treatment?
-13. What was the most common type of surgery performed on patients with Infiltrating Lobular Carcinoma, and how did it impact survival?
+13. What was the most common type of surgery performed on patients with Infiltrating Lobular Carcinoma, and how did it impact survival? 
