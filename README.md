@@ -116,7 +116,7 @@ Explore the interactive dashboard here:
 
 Our team has worked collaboratively, bringing together diverse skills and a shared passion for data analysis. Every member has played a crucial role in completing this project, contributing their expertise to deliver valuable and accurate insights that support the healthcare field.
 
-- **Alaa Amin Abdulaziz Elgezery**
+- **A'laa  Amin Abdulaziz Elgezery**
 - **Diab Saeed Fathi**
 - **Eslam Saad Gomaa Mohammed**
 - **Habiba Abo Khalil Hadaad**
