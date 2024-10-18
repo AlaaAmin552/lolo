@@ -106,6 +106,9 @@ Explore the interactive dashboard here:
 [Interactive Dashboard Link](https://public.tableau.com/views/EDA_17292043076160/Overview?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
+![Capture](https://github.com/user-attachments/assets/2ee048ed-ae3a-46b0-a541-55d7c833eddb)
+
+
 
 
 
