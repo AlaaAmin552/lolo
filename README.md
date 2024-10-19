@@ -108,10 +108,17 @@ Explore the interactive dashboard here:
 
 ![Capture](https://github.com/user-attachments/assets/2ee048ed-ae3a-46b0-a541-55d7c833eddb)
 
-
-
-
-
+![cancer-stages](https://github.com/user-attachments/assets/d6c35134-0a97-4273-958f-69140031e7eb)
+![cancer-stages-Clicked](https://github.com/user-attachments/assets/6ba69461-0a6f-431a-ad3c-b0349e4754bc)
+![filter Clicked](https://github.com/user-attachments/assets/5d17274c-0282-4c9e-94f4-5de717ae1f49)
+![filter](https://github.com/user-attachments/assets/97644666-c51a-444d-a7b9-e90c1962a0e0)
+![Histology](https://github.com/user-attachments/assets/cacd92ef-9f6b-4612-8c38-0513320f7f36)
+![Histology-Clicked](https://github.com/user-attachments/assets/f856bb2b-90ed-4df3-b575-6ca0be3a9081)
+![ribbon](https://github.com/user-attachments/assets/92981754-c77b-41c8-a60a-c3af26f1c927)
+![surgery-room](https://github.com/user-attachments/assets/3720bf0e-af36-4afb-8503-360fafd68994)
+![surgery-room-Clicked](https://github.com/user-attachments/assets/5b449a83-3f57-44d3-b21d-7aad06304545)
+![woman](https://github.com/user-attachments/assets/03251826-4f15-4c44-b718-fcc3257629fb)
+![woman-Clicked](https://github.com/user-attachments/assets/67190a31-9bbc-4c4c-b255-7f5049e5134b)
 
 
 
