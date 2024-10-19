@@ -110,16 +110,10 @@ Explore the interactive dashboard here:
 
 
 
-![filter Clicked](https://github.com/user-attachments/assets/373f6f0a-4c7e-43dc-ae2d-3780b9789a87)
-![cancer-stages](https://github.com/user-attachments/assets/ca683000-7aa5-46bc-a6ee-82ee4ed18d0b)
-![cancer-stages-Clicked](https://github.com/user-attachments/assets/1f84a763-3035-47ed-821f-483f0d23c10e)
-![filter](https://github.com/user-attachments/assets/f78d8d1a-6cc2-4af5-81eb-417ef3028811)
-![Histology](https://github.com/user-attachments/assets/90e7f33c-d21a-4192-85af-fcdc553c4f15)
-![Histology-Clicked](https://github.com/user-attachments/assets/ff5498ae-519a-414b-86ab-89561e260bad)
-![surgery-room](https://github.com/user-attachments/assets/a383d7b0-08c0-4ab0-8605-6a08fd02e454)
-![surgery-room-Clicked](https://github.com/user-attachments/assets/ff3804e3-b26f-42af-a2c2-be3da8f6488c)
-![woman](https://github.com/user-attachments/assets/92928724-f62d-4a27-976f-3287934ca0c4)
-![woman-Clicked](https://github.com/user-attachments/assets/81cf42cb-8fc1-4269-8ded-00f6f0205808)
+![filter Clicked](https://github.com/user-attachments/assets/373f6f0a-4c7e-43dc-ae2d-3780b9789a87)  ![cancer-stages](https://github.com/user-attachments/assets/ca683000-7aa5-46bc-a6ee-82ee4ed18d0b)
+![cancer-stages-Clicked](https://github.com/user-attachments/assets/1f84a763-3035-47ed-821f-483f0d23c10e) ![filter](https://github.com/user-attachments/assets/f78d8d1a-6cc2-4af5-81eb-417ef3028811)
+![Histology](https://github.com/user-attachments/assets/90e7f33c-d21a-4192-85af-fcdc553c4f15) ![Histology-Clicked](https://github.com/user-attachments/assets/ff5498ae-519a-414b-86ab-89561e260bad) ![surgery-room](https://github.com/user-attachments/assets/a383d7b0-08c0-4ab0-8605-6a08fd02e454) ![surgery-room-Clicked](https://github.com/user-attachments/assets/ff3804e3-b26f-42af-a2c2-be3da8f6488c)
+![woman](https://github.com/user-attachments/assets/92928724-f62d-4a27-976f-3287934ca0c4) ![woman-Clicked](https://github.com/user-attachments/assets/81cf42cb-8fc1-4269-8ded-00f6f0205808)
 ![ribbon](https://github.com/user-attachments/assets/8a01dd84-901d-484c-aace-f726a0a1e20a)
 
 
