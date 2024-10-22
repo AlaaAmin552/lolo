@@ -106,7 +106,10 @@ Explore the interactive dashboard here:
 [Interactive Dashboard Link](https://public.tableau.com/views/EDA_17292043076160/Overview?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
-![Capture](https://github.com/user-attachments/assets/2ee048ed-ae3a-46b0-a541-55d7c833eddb)
+![1](https://github.com/user-attachments/assets/78ee0623-a7cc-4efe-ac2f-34d2be9b44a7)
+![2](https://github.com/user-attachments/assets/1045ea22-cab2-4b89-910c-aa46b047ee62)
+![3](https://github.com/user-attachments/assets/37f7bc6a-49a9-461d-8b59-38fd3e7c8524)
+![4](https://github.com/user-attachments/assets/d0ca0047-674a-4297-91c0-e4cf5b1502ae)
 
 
 ## Team Members
